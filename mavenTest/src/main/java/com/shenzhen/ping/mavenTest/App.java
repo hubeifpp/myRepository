@@ -11,6 +11,9 @@ public class App
     	
     	System.out.println("ERROR bal bal");
         System.out.println( "Hello World!" );
+        System.out.println("我的是什么！    ");
+        
+        
     }
     
     public void sayHello() {
