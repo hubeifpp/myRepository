@@ -141,7 +141,7 @@ public class TsBlackListController extends BaseController {
 			systemService.addLog(message, Globals.Log_Type_DEL, Globals.Log_Leavel_INFO);
 		}catch(Exception e){
 			e.printStackTrace();
-			message = "黑名单删除失败";
+			message = "黑名单删除失败！";
 			throw new BusinessException(e.getMessage());
 		}
 		j.setMsg(message);
