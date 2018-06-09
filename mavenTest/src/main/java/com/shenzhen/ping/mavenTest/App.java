@@ -12,4 +12,11 @@ public class App
     	System.out.println("ERROR bal bal");
         System.out.println( "Hello World!" );
     }
+    
+    public void sayHello() {
+    	
+    	System.out.println("I am   hello ");
+    	
+    }
+    
 }
